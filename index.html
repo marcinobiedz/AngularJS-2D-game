@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="gameModule">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script type="text/javascript" src="js/gameController.js"></script>
+  <script type="text/javascript" src="js/drawService.js"></script>
+  <script type="text/javascript" src="js/moveService.js"></script>
+  <script type="text/javascript" src="js/validateService.js"></script>
+  <script type="text/javascript" src="js/playerFactory.js"></script>
+  <script type="text/javascript" src="js/enemyFactory.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-controller="gameController">
+  <canvas id="canvas" width="1000" height="600"></canvas>
+  <p>You have {{userPoints}} points !</p>
+</body>
+
+</html>
